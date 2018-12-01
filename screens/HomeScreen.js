@@ -13,7 +13,7 @@ import Greetings from '../components/Greetings';
 
 export default class HomeScreen extends React.Component {
   static navigationOptions = {
-    header: null,
+    title: "Has a header",
   };
 
   render() {
